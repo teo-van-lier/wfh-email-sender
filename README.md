@@ -8,7 +8,7 @@ Automated email system for sending work-from-home start and stop notifications t
 - **Smart Timing**: Morning emails sent randomly between 7:45-8:10 AM
 - **Calculated Stop Times**: Stop emails sent approximately 9 hours after start
 - **Outlook Integration**: Uses your existing Outlook account
-- **Dutch Language Support**: Email content in Dutch as specified
+- **Dutch Language Support**: Email content in Dutch
 - **Simple CLI**: Easy-to-use command-line interface
 - **Persistent Storage**: SQLite database for scheduled emails
 
@@ -43,16 +43,6 @@ python main.py
 2. Choose option 1 to schedule emails for your work days
 3. Choose option 4 to start the background scheduler
 4. The system will automatically send emails at the scheduled times
-
-### Email Content
-
-**Start Email:**
-- Subject: `Start remote werk DD/MM/YYYY`
-- Body: `Ik start nu met werken van thuis.` followed by signature
-
-**Stop Email:**
-- Subject: `Einde remote werk DD/MM/YYYY`
-- Body: `Ik stop nu met werken van thuis.` followed by signature
 
 ## File Structure
 
