@@ -1,0 +1,2 @@
+# WFH Email Automation System Dependencies
+pywin32>=306

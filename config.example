@@ -1,0 +1,35 @@
+# WFH Email Automation System Configuration
+# Copy this file to config and update with your settings
+
+# Email settings - UPDATE THESE
+EMAIL_SENDER=your.email@example.com
+EMAIL_RECIPIENT=recipient@example.com
+
+# Email templates
+START_EMAIL_SUBJECT_TEMPLATE=Start remote werk {date}
+START_EMAIL_BODY=Ik start nu met werken van thuis.
+
+Met vriendelijke groeten,
+
+Your Name
+
+STOP_EMAIL_SUBJECT_TEMPLATE=Einde remote werk {date}
+STOP_EMAIL_BODY=Ik stop nu met werken van thuis.
+
+Met vriendelijke groeten,
+
+Your Name
+
+# Scheduling settings
+MORNING_START_TIME=07:45
+MORNING_END_TIME=08:10
+WORK_DURATION_HOURS=9
+STOP_TIME_RANDOM_MINUTES_MIN=10
+STOP_TIME_RANDOM_MINUTES_MAX=30
+
+# Database settings
+DB_NAME=wfh_emails.db
+
+# Logging settings
+LOG_FORMAT=%(asctime)s - %(levelname)s - %(message)s
+LOG_FILE=wfh_email.log
